@@ -56,7 +56,9 @@ const todaysQuote = quotes[Math.floor(Math.random()* quotes.length)];
 
 function writeQuotes() {
     quote.innerText = todaysQuote.quote;
-    author.innerText = todaysQuote.author;    
+    author.innerText = todaysQuote.author;  
+    quote.style.color = "white";  
+    author.style.color = "white";  
 }
 
 writeQuotes();
